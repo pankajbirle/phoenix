@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="socialApp">
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <title>Pheonix</title>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        <link href="app.css" rel="stylesheet" />
+        <script src="//code.angularjs.org/1.3.0-rc.1/angular.min.js"></script>
+        <script src="//code.angularjs.org/1.3.0-rc.1/angular-route.min.js"></script>       
+    </head>
+    <body>
+        <div class="blog-masthead">
+            <div class="container">
+                <h1 class="a-center">              
+                    <a class="blog-nav-item" href="#">Phoenix</a>                    
+                </h1>               
+            </div>
+        </div>
+        <div class="container pt-20"> 
+            <div ng-view>            
+            </div> 
+        </div>
+        <script defer src="app.js"></script>   
+        <script defer src="user/user.js"></script> 
+        <script defer src="message/message.js"></script> 
+        <script defer src="feed/feed.js"></script>        
+    </body>
+</html>
